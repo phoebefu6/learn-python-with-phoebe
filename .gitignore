@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Conda
+.conda/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Data (keep large/raw data out of git)
+*.csv
+*.xlsx
+*.parquet
+data/raw/
