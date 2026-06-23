@@ -1,0 +1,59 @@
+# Data Analysis + Data Science starter stack
+# Install:  pip install -r requirements.txt
+# (run inside the `learn-python` conda env)
+
+# ---- Core data ----
+numpy
+pandas
+polars              # fast modern dataframe, great to learn alongside pandas
+scipy
+pyarrow             # fast parquet / arrow, speeds up pandas I/O
+
+# ---- Data access ----
+sqlalchemy          # talk to SQL databases
+duckdb              # run SQL on local files, no server needed
+openpyxl            # read/write Excel
+requests            # pull data from the web
+beautifulsoup4      # parse HTML / simple scraping
+lxml                # fast XML/HTML parser (used by pandas.read_html)
+python-dotenv       # load secrets/keys from a .env file
+
+# ---- Visualization ----
+matplotlib
+seaborn
+plotly              # interactive charts
+altair              # declarative charts
+
+# ---- Stats ----
+statsmodels         # regression, time series, statistical tests
+pingouin            # easy statistical tests with clean output
+
+# ---- Machine learning ----
+scikit-learn
+xgboost
+lightgbm
+catboost            # gradient boosting, strong on categorical data
+imbalanced-learn    # handle imbalanced classes (SMOTE etc.)
+category_encoders   # encode categorical features
+optuna              # hyperparameter tuning
+shap                # explain model predictions
+joblib              # save/load models, parallel loops
+
+# ---- EDA / data quality ----
+ydata-profiling     # one-line full dataset profile report
+missingno           # visualize missing data
+
+# ---- Notebooks ----
+jupyter
+jupyterlab
+ipykernel
+nbformat
+
+# ---- Dev hygiene ----
+black               # auto-format code
+ruff                # fast linter
+nbstripout          # strip notebook output before committing
+
+# ---- Handy utilities ----
+tqdm                # progress bars
+faker               # generate fake data for practice projects
