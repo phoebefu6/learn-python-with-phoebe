@@ -1,6 +1,6 @@
-print("Day 1. Learning Python with Phoebe.")
-
-import pandas as pd
-
+print("welcome to learn python with Phoebe")
+x = int(input("input a number"))
+y = int(input("input a number again"))
+print(x+y)
 
 
