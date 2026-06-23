@@ -33,7 +33,8 @@ Each project folder has its own short README: what it does, what I learned, how 
 
 | # | Project / Topic | What I learned | Status |
 |---|-----------------|----------------|--------|
-| 01 | _coming soon_ | - | 🔜 |
+| 01 | `day01.py` - Hello World | `print()` is how Python talks back to you - every journey starts here | ✅ |
+| 02 | `hello.py` - Simple Calculator | `input()` reads from the user; `int()` converts text to a number so you can do math with it | ✅ |
 
 ---
 
